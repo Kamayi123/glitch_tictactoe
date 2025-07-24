@@ -1,1 +1,1 @@
-Play here: http//C:/Users/Kamayi%20Guillaume/Desktop/mm/index;html.html
+Play here: file:///C:/Users/Kamayi%20Guillaume/Desktop/mm/index;html.html
