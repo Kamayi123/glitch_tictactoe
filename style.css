@@ -1,0 +1,54 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #00ffcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #111;
+  border: 2px solid #00ffcc;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.memory {
+  margin-top: 20px;
+  font-style: italic;
+  color: #cc00ff;
+}
+
+.mode-select button {
+  background: #222;
+  color: #00ffcc;
+  border: 2px solid #00ffcc;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
